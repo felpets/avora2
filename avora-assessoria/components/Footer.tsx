@@ -49,9 +49,9 @@ export default function Footer() {
               © {currentYear} Ávora Assessoria. Todos os direitos reservados.
             </p>
             <div className="flex gap-6">
-              <a href="/privacidade.html" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Política de Privacidade</a>
-              <a href="/termos.html" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Termos de Uso</a>
-              <a href="/cancelamento.html" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Cancelamento</a>
+              <a href="/privacidade" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Política de Privacidade</a>
+              <a href="/termos" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Termos de Uso</a>
+              <a href="/cancelamento" className="text-gray-500 text-sm hover:text-orange-400 transition-colors">Cancelamento</a>
             </div>
           </div>
         </div>

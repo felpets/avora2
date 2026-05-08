@@ -14,11 +14,20 @@ export default function Hero() {
   return (
     <section
       id="inicio"
-      className="min-h-screen bg-cover bg-center bg-no-repeat flex items-center justify-center pt-24 px-5% relative overflow-hidden"
-      style={{
-        backgroundImage: 'url(/hero-bg.png)',
-      }}
+      className="min-h-screen flex items-center justify-center pt-24 px-5% relative overflow-hidden"
     >
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src="/hero-bg.mp4" type="video/mp4" />
+      </video>
+      
+      <div className="absolute inset-0 bg-black/40"></div>
+
       <div className="absolute top-0 right-0 w-96 h-96 bg-orange-400/10 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute bottom-0 left-0 w-64 h-64 bg-orange-400/5 rounded-full blur-3xl pointer-events-none"></div>
 
